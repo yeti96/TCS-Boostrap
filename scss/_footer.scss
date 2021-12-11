@@ -1,0 +1,19 @@
+footer {
+	background: rgba(0, 0, 0, 0.3);
+	padding: 32px;
+}
+.social {
+
+	// Redimensión de iconos y animación
+	img {
+		width: 32px;
+		margin: 0px 15px;
+		&:hover {
+			transform: scale(1.1);
+			transition: all 130ms;
+		}
+		&:not(:hover) {
+			transition: all 100ms;
+		}
+	}
+}

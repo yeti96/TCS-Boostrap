@@ -1,0 +1,25 @@
+body{
+  background: $bg-body;
+}
+
+h1{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2{font-size: 2rem;}
+
+ul,
+ol,
+a{
+  text-decoration: none;
+  list-style: none;
+}
+
+p{text-indent: 1rem;}
+
+video{
+  position: absolute;
+  z-index: -1;
+}

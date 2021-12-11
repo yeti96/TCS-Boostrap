@@ -1,0 +1,23 @@
+.album-title{
+
+  // Posicionamiento y estilo al titulo de presentación de cada albúm (EJ.: wwj.html, sb.html, etc..)
+  color: whitesmoke;
+  background: linear-gradient(140deg,  #f1a6df54 0% ,#d494fc56 35%,#afd9fa59 100%);
+  margin: 8% 17% 6% 0%;
+  z-index: 2;
+  position: relative;
+}
+
+.alb-cover{
+
+  // Redimensionamiento de la caratula de los albumes
+  width: 400px;
+  border-radius: 16px;
+  box-shadow: 0px 10px 35px;
+}
+
+.mdno-c{margin-top:13%;}  //Especifico para mdno.html por que el video tiene un heigth mayor
+
+
+// Esto es el parrafo de home y no va en este archivo.
+.intro{background-color: rgba(0, 0, 0, 0.1);}

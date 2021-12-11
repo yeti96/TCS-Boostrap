@@ -1,0 +1,30 @@
+.btn-bg{
+	background: $btn-bg;
+	border:thin;
+	&:hover{
+		transform: scale(1.08);
+		transition: all 125ms;
+	}
+	&:not(:hover){
+		transition: ease-out 100ms;
+	}
+}
+
+.contact-us {
+
+	// Animación a los iconos de las redes sociales en cu.html
+	a {
+			&:hover {
+				transform: translate(5px,-10px);
+				transition: all 150ms;
+			}
+			&:not(:hover) {
+				transition: all 150ms ease-out;
+			}
+			img {
+				width: 54px;
+				height: 54px;
+				flex-flow: row wrap;
+			}
+	}
+}

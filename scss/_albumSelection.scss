@@ -1,0 +1,23 @@
+ .blur{
+ 	background-color: #ffffff10;
+   backdrop-filter: blur(30px);
+ 	-webkit-backdrop-filter: blur(30px);
+ }
+
+.bg-card-title {
+
+	// Animación a las cards en discgry.html
+	border: 0px;
+	&:hover {
+		transform: translate(0px,-12px);
+		transition: all 125ms;
+		box-shadow: 0px 10px 35px whitesmoke;
+		box-sizing: content-box;
+		background: #d6338470;
+		color: whitesmoke;
+	}
+	&:not(:hover) {
+		transition: all 100ms;
+	
+	}
+}

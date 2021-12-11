@@ -1,0 +1,190 @@
+body {
+  background: linear-gradient(140deg, #f1a6df 0%, #d494fc 35%, #afd9fa 100%); }
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center; }
+
+h2 {
+  font-size: 2rem; }
+
+ul,
+ol,
+a {
+  text-decoration: none;
+  list-style: none; }
+
+p {
+  text-indent: 1rem; }
+
+video {
+  position: absolute;
+  z-index: -1; }
+
+.nav-logo {
+  width: 32px;
+  height: 32px; }
+
+.nav-bg {
+  background: linear-gradient(120deg, #ffcbf2a2 0%, #deaaff9d 35%, #c0fdff9c 100%); }
+
+.nav-icon {
+  width: 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; }
+
+.bg-sublinks {
+  background: #c8e7ff; }
+
+.blur {
+  background-color: #ffffff10;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px); }
+
+.bg-card-title {
+  border: 0px; }
+  .bg-card-title:hover {
+    transform: translate(0px, -12px);
+    transition: all 125ms;
+    box-shadow: 0px 10px 35px whitesmoke;
+    box-sizing: content-box;
+    background: #d6338470;
+    color: whitesmoke; }
+  .bg-card-title:not(:hover) {
+    transition: all 100ms; }
+
+.album-title {
+  color: whitesmoke;
+  background: linear-gradient(140deg, #f1a6df54 0%, #d494fc56 35%, #afd9fa59 100%);
+  margin: 8% 17% 6% 0%;
+  z-index: 2;
+  position: relative; }
+
+.alb-cover {
+  width: 400px;
+  border-radius: 16px;
+  box-shadow: 0px 10px 35px; }
+
+.mdno-c {
+  margin-top: 13%; }
+
+.intro {
+  background-color: rgba(0, 0, 0, 0.1); }
+
+.songs-covers {
+  width: 250px;
+  border-radius: 10px;
+  padding: 24px; }
+
+.sc-bg {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%; }
+
+.sc-item {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 0%; }
+  .sc-item p {
+    font-size: 1.4rem; }
+
+.profile-pics {
+  padding: 0%; }
+  .profile-pics img {
+    width: 170px;
+    height: 170px; }
+  .profile-pics .pf-item:hover {
+    transform: scale(1.2);
+    transition: all 150ms;
+    filter: opacity(100%); }
+  .profile-pics li a > img:not(:hover) {
+    transition: all 100ms; }
+
+.pf-item {
+  background: transparent;
+  border: transparent;
+  filter: opacity(70%); }
+
+.btn-bg {
+  background: #6abbf8;
+  border: thin; }
+  .btn-bg:hover {
+    transform: scale(1.08);
+    transition: all 125ms; }
+  .btn-bg:not(:hover) {
+    transition: ease-out 100ms; }
+
+.contact-us a:hover {
+  transform: translate(5px, -10px);
+  transition: all 150ms; }
+
+.contact-us a:not(:hover) {
+  transition: all 150ms ease-out; }
+
+.contact-us a img {
+  width: 54px;
+  height: 54px;
+  flex-flow: row wrap; }
+
+footer {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 32px; }
+
+.social img {
+  width: 32px;
+  margin: 0px 15px; }
+  .social img:hover {
+    transform: scale(1.1);
+    transition: all 130ms; }
+  .social img:not(:hover) {
+    transition: all 100ms; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem; }
+  h2 {
+    font-size: 1.5rem; }
+  p {
+    font-size: 1rem !important;
+    text-indent: 0.5rem; }
+  .profile-pics li a img {
+    width: 48px;
+    height: 48px; }
+  .contact-us {
+    display: flex;
+    flex-flow: row wrap; }
+    .contact-us a {
+      padding: 14px; }
+  .social {
+    display: flex !important;
+    flex-wrap: wrap; }
+    .social img {
+      width: 24px;
+      margin: 0px 10px; } }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .profile-pics li a img {
+    width: 68px;
+    height: 68px; }
+  .contact-us {
+    display: flex;
+    flex-flow: row wrap; }
+    .contact-us a {
+      padding: 16px; }
+  .social a img {
+    width: 26px;
+    margin: 3px 10px; } }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .profile-pics li a img {
+    width: 140px;
+    height: 140px; }
+  .social a img {
+    width: 28px; } }
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
