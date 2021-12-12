@@ -1,19 +1,40 @@
 footer {
-	background: rgba(0, 0, 0, 0.3);
+	// background: rgba(0, 0, 0, 0.3);
+	@extend .intro;
 	padding: 32px;
 }
-.social {
 
-	// Redimensión de iconos y animación
-	img {
+@mixin social-scale {
+	img{
 		width: 32px;
 		margin: 0px 15px;
-		&:hover {
+		&:hover{
 			transform: scale(1.1);
 			transition: all 130ms;
 		}
-		&:not(:hover) {
+		&:not(:hover){
 			transition: all 100ms;
 		}
 	}
 }
+
+.social{
+	@include social-scale();
+}
+
+// .social {
+
+// 	// Redimensión de iconos y animación
+// 	img {
+// 		width: 32px;
+// 		margin: 0px 15px;
+// 		&:hover {
+// 			transform: scale(1.1);
+// 			transition: all 130ms;
+// 		}
+// 		&:not(:hover) {
+// 			transition: all 100ms;
+// 		}
+// 	}
+// }
+

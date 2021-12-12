@@ -70,8 +70,8 @@ video {
 .mdno-c {
   margin-top: 13%; }
 
-.intro {
-  background-color: rgba(0, 0, 0, 0.1); }
+.intro, footer {
+  background-color: rgba(0, 0, 0, 0.21); }
 
 .songs-covers {
   width: 250px;
@@ -128,7 +128,6 @@ video {
   flex-flow: row wrap; }
 
 footer {
-  background: rgba(0, 0, 0, 0.3);
   padding: 32px; }
 
 .social img {
