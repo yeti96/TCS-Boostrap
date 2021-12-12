@@ -1,0 +1,25 @@
+DESAFIO:
+
+@mixin & @extend aplicado en  "scss/_footer.scss"
+
+Performance:
+	- Nav logo redimensionado (720x720 --> 128x128) y optimizado
+	- wcmeBanner "index.html" redimensionado (N° descomunal x N° descomunal --> 1920x823 [original ratio])
+	- Banner principal de "disr.html" redimensionado (N° descomunal x N° descomunal --> 3570x1080 [original ratio]) y optimizado .webp
+	- Profile pics "disr.html" redimensionado (400x400 --> 300x300) y optimizados
+	- Iconos redes sociales del footer optimizados
+	- Portadas "discgry.html" optimizadas
+	
+
+SEO:
+	- Etiquetas meta agregadas (decription, keywords [the chainsmokers, EDM, pop, electropop, future bass, fan page],
+	  notranslate [no busco una traducción automatica], theme-color)
+	- rel="noopener noreferrer nofollow" para links externos
+	- Los encabezados estan creados desde el comienzo del desarrollo del sitio.
+
+
+Herramientas:
+	- tinypng.com/ --> compresión
+	- letsenhance.io/ --> redimensión
+	- convertio.co/es/ --> conversión .webp
+	- pagespeed.web.dev/ --> insights
