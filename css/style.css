@@ -29,6 +29,18 @@ video {
 .nav-bg {
   background: linear-gradient(120deg, #ffcbf2a2 0%, #deaaff9d 35%, #c0fdff9c 100%); }
 
+.link-bg:hover {
+  transition: all 200ms;
+  background: rgba(245, 245, 245, 0.418);
+  border-radius: 2rem; }
+
+.link-bg:not(:hover) {
+  transition: ease-out 400ms; }
+
+a:active {
+  transform: scale(0.9);
+  transition: ease-in 50ms; }
+
 .nav-icon {
   width: 24px;
   display: inline-flex;

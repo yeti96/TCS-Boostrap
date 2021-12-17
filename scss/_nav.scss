@@ -7,6 +7,25 @@
   background: $bg-nav;
 }
 
+ .link-bg{
+ 
+   &:hover{
+    transition:all 200ms;
+    background: rgba(245, 245, 245, .418);
+    border-radius: 2rem;
+
+  }
+  &:not(:hover){
+    transition: ease-out 400ms;
+    }
+  }
+  a{
+  &:active{
+    transform: scale(0.9);
+    transition: ease-in 50ms;
+  }
+ }
+
 .nav-icon{
   width: 24px;
   display: inline-flex;
