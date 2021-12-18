@@ -50,11 +50,6 @@ a:active {
 .bg-sublinks {
   background: #c8e7ff; }
 
-.blur {
-  background-color: #ffffff10;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px); }
-
 .bg-card-title {
   border: 0px; }
   .bg-card-title:hover {
@@ -138,6 +133,28 @@ a:active {
   width: 54px;
   height: 54px;
   flex-flow: row wrap; }
+
+.blur {
+  background-color: #ffffff10;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); }
+
+.txs-container {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+  .txs-container .txs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    width: 60%;
+    height: 30%; }
 
 footer {
   padding: 32px; }

@@ -1,0 +1,25 @@
+.blur{
+  background-color: #ffffff10;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.txs-container{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+
+  .txs{
+    display: flex;justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    width: 60%;
+    height: 30%;
+  }
+}
+
