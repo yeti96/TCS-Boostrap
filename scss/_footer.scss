@@ -22,6 +22,22 @@ footer {
 	@include social-scale();
 }
 
+.back-to-top{
+	position: fixed;
+	bottom: 5%;
+	right: 3%;
+	border-radius: 50%;
+	background: #f1a6df;
+	 &:hover{
+		 transform: scale(1.15);
+		 transition: ease-in 125ms;
+	 }
+	 &:not(:hover){
+		transition: ease-out 100ms;
+	}
+}
+
+
 // .social {
 
 // 	// Redimensión de iconos y animación

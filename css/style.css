@@ -168,6 +168,18 @@ footer {
   .social img:not(:hover) {
     transition: all 100ms; }
 
+.back-to-top {
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  border-radius: 50%;
+  background: #f1a6df; }
+  .back-to-top:hover {
+    transform: scale(1.15);
+    transition: ease-in 125ms; }
+  .back-to-top:not(:hover) {
+    transition: ease-out 100ms; }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   h1 {
