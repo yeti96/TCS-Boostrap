@@ -29,13 +29,23 @@ video {
 .nav-bg {
   background: linear-gradient(120deg, #ffcbf2a2 0%, #deaaff9d 35%, #c0fdff9c 100%); }
 
-.link-bg:hover {
-  transition: all 200ms;
-  background: rgba(245, 245, 245, 0.418);
-  border-radius: 2rem; }
-
-.link-bg:not(:hover) {
-  transition: ease-out 400ms; }
+.link-bg a {
+  position: relative; }
+  .link-bg a::before {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 3px;
+    background: whitesmoke;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition: all 150ms; }
+  .link-bg a:hover::before {
+    left: 0%;
+    width: 100%; }
+  .link-bg a:not(:hover) {
+    transition: ease-out 400ms; }
 
 a:active {
   transform: scale(0.9);

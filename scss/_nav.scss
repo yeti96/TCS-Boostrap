@@ -7,21 +7,37 @@
   background: $bg-nav;
 }
 
- .link-bg{
- 
-   &:hover{
-    transition:all 200ms;
-    background: rgba(245, 245, 245, .418);
-    border-radius: 2rem;
 
-  }
-  &:not(:hover){
-    transition: ease-out 400ms;
+.link-bg{
+  a{
+    position: relative;
+
+    &::before{
+      content: "";
+      display: block;
+      width: 0%;
+      height: 3px;
+      background: whitesmoke;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transition: all 150ms;
+    }
+    &:hover::before{
+      left: 0%;
+      width: 100%;
+      // background:whitesmoke;
+      // border-radius: 1.3rem;
+    }
+    &:not(:hover){
+      transition: ease-out 400ms;
+      }
     }
   }
+  
   a{
   &:active{
-    transform: scale(0.9);
+    transform: scale(.9);
     transition: ease-in 50ms;
   }
  }
