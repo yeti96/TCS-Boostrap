@@ -18,6 +18,7 @@
 			>img {
 				&:not(:hover) {
 					transition: all 100ms;
+					-webkit-transition: all 100ms;
 				}
 			}
 		}

@@ -116,7 +116,8 @@ a:active {
     transition: all 150ms;
     filter: opacity(100%); }
   .profile-pics li a > img:not(:hover) {
-    transition: all 100ms; }
+    transition: all 100ms;
+    -webkit-transition: all 100ms; }
 
 .pf-item {
   background: transparent;
