@@ -16,7 +16,8 @@ a {
   list-style: none; }
 
 p {
-  text-indent: 1rem; }
+  text-indent: 1rem;
+  color: whitesmoke; }
 
 video {
   position: absolute;
